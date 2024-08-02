@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: rgb(212, 228, 243);
+  width: 100%;
+  position: fixed;
+  z-index: 999; /* like elevation*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+.name {
+  color: #3a6cf4;
+  text-transform: uppercase;
+}
+.name:hover {
+  color: red;
+}
+.navigation a {
+  text-decoration: none;
+  color: #3a6cf4;
+  font-weight: bold;
+  padding-left: 30px;
+}
+.navigation a:hover {
+  color: red;
+}
+section {
+  padding: 100px 200px;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(image/developer.png) no-repeat;
+  background-position: center;
+  background-size: 25%;
+  background-color: #e6f7ff;
+  background-attachment: fixed; /*just effect*/
+}
+.main h1 {
+  color: #3a6cf4;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.btn-about {
+  background-color: #3a6cf4;
+  text-decoration: none;
+  padding: 18px 35px;
+  color: white;
+  border-radius: 15px;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.7s ease;
+  letter-spacing: 1px;
+}
+.btn-about:hover {
+  background-color: blue;
+  transform: scale(1.1);
+}
+.title {
+  text-align: center;
+  color: #3a6cf4;
+  font-weight: bold;
+  font-size: 2.2em;
+  margin-bottom: 30px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transition: 0.7s ease;
+}
+.card {
+  background-color: #fff;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.icon {
+  color: #3a6cf4;
+  font-size: 6em;
+  text-align: center;
+}
+.info {
+  text-align: center;
+}
+.info h3 {
+  color: #3a6cf4;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.Contact {
+  background-color: #e6f7ff;
+}
+.contect-contact {
+  background-color: rgb(194, 218, 238);
+  border-radius: 15px;
+  text-align: center;
+  margin: 50px 200px;
+  padding: 50px;
+}
+.content-email {
+  background-color: #3a6cf4;
+  padding: 20px;
+  margin: 0 120px;
+  border-radius: 50px;
+}
+input[type="email"] {
+  border: 0px solid #3a6cf4;
+  background-color: #3a6cf4;
+  outline: none;
+  font-weight: bold;
+  color: black;
+  font-size: large;
+}
+input[type="email"]::placeholder {
+  color: black;
+  font-style: italic;
+  text-align: center;
+}
+.content-email a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(194, 218, 238);
+  padding: 10px;
+  border-radius: 50px;
+  transition: 0.7s ease;
+  display: inline-block;
+}
+.content-email a:hover {
+  transform: scale(1.1);
+  color: red;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(33, 32, 32);
+  padding: 20px 200px;
+  align-items: center;
+}
+footer p {
+  color: white;
+  font-weight: bold;
+}
+footer p span {
+  color: #3a6cf4;
+}
+.social a {
+  color: white;
+  padding: 0.5em;
+  font-size: 1.9em;
+  transition: 0.5s ease;
+  display: inline-block;
+}
+.social a:hover {
+  color: #3a6cf4;
+  transform: scale(1.1);
+}
